@@ -11,8 +11,9 @@ return(
 
       <h2>Página Inicial</h2>
       <Cartao titulo="Exame de Gato" descricao="Check-up Completo de saúde para seu gato." 
-      imagem="img/gato.jpeg" />
+      imagem="src\img\gato.jpeg" />
     </main>
   </div>
 );
 };
+export default App;
