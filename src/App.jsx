@@ -2,6 +2,7 @@ import React from "react";
 import Cabecalho from "./components/Cabecalho";
 import Cartao from "./components/Cartao";
 import Contador from "./components/Contador";
+import Numeros from "./components/Numeros";
 
 const App =() => {
 return(
