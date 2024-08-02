@@ -4,7 +4,7 @@ const Cabecalho = () => {
 return (
 
     <header>
-        <h1>Bem-Vindo ao Pet House</h1>        
+        <h1>Bem-Vindo a Find ISS!</h1>        
         </header>
 
 );

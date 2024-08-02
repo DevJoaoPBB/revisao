@@ -1,19 +1,18 @@
 import React from "react";
 import Cabecalho from "./components/Cabecalho";
 import Cartao from "./components/Cartao";
-import Contador from "./components/Contador";
-import Numeros from "./components/Numeros";
+import FindISS from "./components/FindISS";
 
 const App =() => {
 return(
   <div>
     <Cabecalho/>
-
     <main>
-      <h2>Página Inicial</h2>
-      <Cartao titulo="Exame de Gato" descricao="Check-up Completo de saúde para seu gato." 
+      <Cartao titulo="Rastreamento da ISS" descricao="Acompanhe em tempo real a Localização da ISS!" 
       imagem="src\img\gato.jpeg" />
-      <Contador/>
+
+      <FindISS/>
+    
     </main>
 
   </div>
